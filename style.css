@@ -51,8 +51,6 @@ main {
     padding: 7px;
 }
 
-.states {}
-
 .states__heading {
     display: flex;
     justify-content: space-between;
