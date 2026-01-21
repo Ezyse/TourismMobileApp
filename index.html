@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>Tourism Mobile App</title>
 </head>
+
 <body>
-    
+    <header class="container">
+        <h1>Travel Smarter. <br> Go Further.</h1>
+    </header>
+    <main class="">
+        <section class="travelers-story container">
+            <h3>Travellers Story</h3>
+            <div class="travelers-story__scroll container">
+                <div><img src="./images/add-story.png" alt="Story"></div>
+                <div><img src="./images/story1.png" alt="Story"></div>
+                <div><img src="./images/story2.png" alt="Story"></div>
+                <div><img src="./images/story3.png" alt="Story"></div>
+            </div>
+        </section>
+        <!-- BEM block__element_modifier -->
+        <section class="states container">
+            <div class="states__heading">
+                <h3>Top States</h3>
+                <a href="#">See all</a>
+            </div>
+            <div class="top-states">
+                <a href="#">
+                    <div class="states__state1">
+                        <h5>Lagos</h5>
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="states__state2">
+                        <h5>Abuja</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="states__state3">
+                        <h5>Kano</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="states__state4">
+                        <h5>Rivers</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="states__state5">
+                        <h5>Owerri</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="states__state6">
+                        <h5>Kogi</h5>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <nav class="navbar container">
+        <ul class="navbar__list">
+            <li>
+                <img src="./images/home.png" alt="Home">
+                Home
+            </li>
+            <li>
+                <img src="./images/planatrip.png" alt="Plan a trip">
+                Plan a trip
+            </li>
+            <li>
+                <img src="./images/notifications.png" alt="Notification">
+                Notification
+            </li>
+            <li>
+                <img src="./images/profile.png" alt="Profile">
+                Profile
+            </li>
+        </ul>
+    </nav>
 </body>
+
 </html>

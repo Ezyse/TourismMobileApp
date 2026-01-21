@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 428px;
+}
+
+header {
+    background-image: url('./images/main_banner.png');
+    background-repeat: no-repeat;
+    min-height: 262px;
+    padding-top: 44px;
+    border-radius: 0 0 16px 16px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #0D8BFF;
+    text-align: center;
+}
+
+main {
+    padding: 13px 18px 18px;
+}
+
+.travelers-story h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+.travelers-story__scroll {
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+}
+
+.travelers-story__scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.travelers-story__scroll div {
+    border: 1px solid #4087FC;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.states {}
+
+.states__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+.states__heading h3 {
+    font-size: 18px;
+}
+
+.states__heading a {
+    font-size: 18px;
+    color: #C4C4C4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-states {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 18px;
+}
+
+.top-states div {
+    width: 186px;
+    height: 108px;
+    position: relative;
+}
+
+.top-states div h5 {
+    background-color: white;
+    width: 68px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px 5px 5px 0;
+    font-size: 12;
+    font-weight: 400;
+    color: #000000;
+}
+
+.top-states .states__state1 {
+    background-image: url('./images/Lagos.png');
+    background-repeat: no-repeat;
+}
+
+.top-states .states__state2 {
+    background-image: url('./images/abuja.png');
+    background-repeat: no-repeat;
+}
+
+.top-states .states__state3 {
+    background-image: url('./images/kano.png');
+    background-repeat: no-repeat;
+}
+
+.top-states .states__state4 {
+    background-image: url('./images/rivers.png');
+    background-repeat: no-repeat;
+}
+
+.top-states .states__state5 {
+    background-image: url('./images/owerri.png');
+    background-repeat: no-repeat;
+}
+
+.top-states .states__state6 {
+    background-image: url('./images/kogi.png');
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #0D8BFF;
+    padding: 8px 21px 9px;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 53px;
+}
+
+.navbar__list li {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #ffffff;
+    list-style: none;
+}
